@@ -1,0 +1,42 @@
+.header_wrapper {
+    & .navbar {
+        padding: 15px 0;
+        -webkit-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        -moz-transition: all .2s linear;
+        -ms-transition: all .2s linear;
+        transition: all .2s linear;
+    }
+    & .navbar-brand img {
+        max-width: 120px;
+        height: auto;
+    }
+    & .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    & .nav-item {
+        margin: 0 10px;
+    }
+    & .nav-item .nav-link {
+        font-style: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: $txt-dark;
+        display: inline-block;
+        &:hover {
+            color: $txt-primary;
+        }
+        &.active {
+            color: $txt-primary;
+        }
+    }
+}
+
+.header_scroll {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $bg-white;
+    width: 100%;
+    box-shadow: 0 4px 6px 0 rgba(12, 0, 0, .05);
+}

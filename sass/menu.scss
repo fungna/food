@@ -1,0 +1,29 @@
+.menu_wrapper {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/food-menu-banner.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    & .row {
+        padding-top: 400px;
+    }
+    & .card {
+        background-color: $cl-secondary;
+        & h3,
+        p {
+            color: $txt-white;
+        }
+        & h3 span {
+            background-color: $cl-primary;
+            border-radius: 50%;
+            font-size: 40px;
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+            display: inline-block;
+            margin-right: 20px;
+        }
+    }
+}

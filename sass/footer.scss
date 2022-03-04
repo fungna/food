@@ -1,0 +1,30 @@
+.footer_wrapper {
+    background-color: $bg-white;
+    padding: 20px 0;
+    & .footer_logo img {
+        width: 100px;
+    }
+    & .social_icon li {
+        margin: 6px;
+    }
+    & .social_icon a {
+        width: 35px;
+        height: 35px;
+        line-height: 32px;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 100%;
+        display: inline-block;
+        border: 2px solid #000;
+        color: #000;
+        &:hover {
+            background-color: $cl-primary;
+            color: #fff;
+        }
+    }
+    & .copyright_txt p {
+        font-size: 9px;
+        line-height: 20px;
+        margin: 0;
+    }
+}
